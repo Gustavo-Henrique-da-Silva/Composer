@@ -1,0 +1,13 @@
+{
+    "name": "windows10/composer",
+    "description": "Projeto com composer",
+    "type": "project",
+    "require": {
+        "monolog/monolog": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Windows10\\Composer\\": "src/"
+        }
+    }
+}
